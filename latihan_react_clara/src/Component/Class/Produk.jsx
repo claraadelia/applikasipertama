@@ -32,7 +32,7 @@ class Produk extends Component{
                 <div className="box-stock">
                     <h2>{this.props.nama}</h2>
                     <img src="https://tse4.mm.bing.net/th?id=OIP.rf428CRhPdRFDWUeLIaHMgHaEo&pid=Api&P=0&w=259&h=163" alt=""/>
-            <p>{this.props.harga}</p>
+            <p><b> Rp. {this.props.harga}</b></p>
                     <p>{this.state.stock}</p>
                     <button className="btn-click" onClick={this.ButtonBeli} disabled={this.state.disabled}>Beli</button>
                     <p>{this.state.Status}</p>
