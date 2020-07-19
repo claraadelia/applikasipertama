@@ -3,26 +3,25 @@ import React from 'react'
 import Produk from '../Class/Produk';
 
 const Home = () => {
-    return <div>
-        { <Produk nama="Macbook Pro 2020"stock="10" harga="33000000"/>
-        /*<Blog
-            tanggal="02 juni 2020"
-            judul="Teknologi Blockhain "
-            summary="There are many variations of passages of Lorem Ipsum available.
-            "/>
 
-        <Blog
-            tanggal="03 juni 2020"
-            judul="Teknologi Internet of Things "
-            summary="There are many variations of passages of Lorem Ipsum available.
-            "/>
+    return <div className="Home">
         
-        <Blog
-            tanggal="04 juni 2020"
-            judul="Teknologi 5.0 "
-            summary="There are many variations of passages of Lorem Ipsum available.
-            "/>*/}
-    </div>
+        <img src="https://cms.sehatq.com/cdn-cgi/image/f=auto,width=1500,height=630,fit=cover,background=white,quality=100/public/img/article_img/bagaimana-cara-memilih-kosmetik-yang-aman-bagi-kulit-1557371403.jpg" alt=""/>
+       <p>Minat?</p>
+        <p>Wa : 0897837728191</p>
+        <p>Ig  : shoping_yuk</p>
+        <p>Line :mau_beli_apa</p>
+        <p></p>
+        <p>Untuk kalian yang seneng banget sama Makeup, yang engga bisa jauh-jauh dari Makeup dan engga bisa kalo engga pake Makeup. Disini ada solusinya, kami menyediakan berbagai product kecantikan yang recomended untuk klean smeuaa.......
+Harga Kosmetik dan Ongkir yang murah daripada yang lainnya, dan kualitas kosmetik yang tidak usah diragukan lagi. Karena disini barangnya ORI 
+Pengiriman Barang dari Jakarta
+ 
+Yuk, kita liat-liat barang dan kegunaannya barang di Deskripsinya
+Jangan lupa follow akun kami di Instagram dan Line yang selalu upload kosmetik terbaru dan best seller. 
+ 
+Happy Shopping ^_^</p>
+        </div>
+
 }
 
 export default Home;
