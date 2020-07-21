@@ -18,8 +18,7 @@ const App = () => {
   return (
     <BrowserRouter>
     <NavbarComp/>
-      <Home/>
-      <Login/>
+      
       <switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={About}/>
