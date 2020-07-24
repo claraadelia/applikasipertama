@@ -3,6 +3,7 @@ import { Jumbotron, Button, Container, Row, Col } from 'reactstrap';
 import CardComp from './CardComp'
 import DetailComp from './DetailComp'
 
+
 function AboutComp() {
     return (
         <div>
