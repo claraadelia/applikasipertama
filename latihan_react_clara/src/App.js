@@ -16,6 +16,7 @@ import HooksComp from './Component/Class/Hooks/Fungsional/HooksComp';
 import HooksUseEffects from './Component/Class/Hooks/Fungsional/HooksUseEffects';
 import { CartContext } from './CardContext';
 import Produk from './Component/Class/Produk';
+import HooksRecucer from './Component/Class/Hooks/Fungsional/HooksReducer'
 
 
 //import logo from './logo.svg';
@@ -31,8 +32,7 @@ const App = () => {
   
     <BrowserRouter>
     <NavbarComp/>
-   
-   
+   <Home/>
    <switch>
      <Route exact path="/" component={HomePage} />
      <Route exact path="/about" component={About}/>
@@ -42,7 +42,8 @@ const App = () => {
      <Route exact path="/kelas" component={KelasComp} />
      <Route exact path="/hooks" component={HooksComp} />
      <Route exact path="/useeffects" component={HooksUseEffects} />
-     
+     <Route exact path="/reducer" component= {HooksRecucer} />
+
      {/* <Route exact path="/detail/:id" component={DetailComp}/>*/}
      <CartContext.Provider value={{value, setValue}}> 
 
