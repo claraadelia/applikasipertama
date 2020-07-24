@@ -19,7 +19,7 @@ class TambahComp extends PureComponent {
     }
 
     handleChange = (e) => {
-        this.setState({[e.target.name] : e.target.value})
+        this.setState({ [e.target.name]: e.target.value})
     }
 
     Addmahasiswa = () => {
@@ -50,7 +50,7 @@ class TambahComp extends PureComponent {
                 <h4>Form Tambah Data</h4>
                 <Alert color="success" style={{display: this.state.display}}>
                     {this.state.response }
-                <Alert/>
+                </Alert>
 
                 <Form className="form">
                     <Col>
@@ -87,7 +87,7 @@ class TambahComp extends PureComponent {
                         </FormGroup>
                     </Col>
                    </Form>
-                </Alert>
+                   
                 </Container>
         )}
 }
