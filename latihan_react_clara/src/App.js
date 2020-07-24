@@ -13,6 +13,7 @@ import TambahComp from './Component/Class/TambahComp'
 import EditComp from './Component/Class/EditComp';
 import KelasComp from './Component/Class/Hooks/Class/KelasComp';
 import HooksComp from './Component/Class/Hooks/Fungsional/HooksComp';
+import HooksUseEffects from './Component/Class/Hooks/Fungsional/HooksUseEffects';
 
 
 //import logo from './logo.svg';
@@ -34,6 +35,7 @@ const App = () => {
         <Route exact path="/mahasiswa/edit" component={EditComp} />
         <Route exact path="/kelas" component={KelasComp} />
         <Route exact path="/hooks" component={HooksComp} />
+        <Route exact path="/useeffects" component={HooksUseEffects} />
         {/* <Route exact path="/detail/:id" component={DetailComp}/>*/}
         </switch>
     </BrowserRouter>

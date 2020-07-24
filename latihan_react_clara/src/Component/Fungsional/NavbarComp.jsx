@@ -14,7 +14,7 @@ import {
     NavbarText
 } from 'reactstrap';
 
-const NavbarComp  = (props) => {
+const NavbarComp = (props) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
@@ -26,7 +26,7 @@ const NavbarComp  = (props) => {
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="mr-auto" navbar>
                     <NavItem>
-                        
+
                         <NavLink href="/">Home</NavLink>
                     </NavItem>
                     <NavItem>
@@ -36,11 +36,14 @@ const NavbarComp  = (props) => {
                         <NavLink href="/mahasiswa">Mahasiswa</NavLink>
                     </NavItem>
                     <NavItem>
-                            <NavLink href="/kelas">Class</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/hooks">Hook</NavLink>
-                        </NavItem>
+                        <NavLink href="/kelas">Class</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/hooks">Hook</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/useeffects">Use Effects</NavLink>
+                    </NavItem>
                 </Nav>
                 <NavbarText>Simple Text</NavbarText>
             </Collapse>
